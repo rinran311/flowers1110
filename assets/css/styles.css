@@ -41,8 +41,9 @@
   box-shadow: none;
 }
 
-*：focus {
-  outline: none;
-  box-shadow: none;
+*：focus, *:active {
+  outline: none !important;
+  border: none !important;
+  box-shadow: none !important;
 }
 
