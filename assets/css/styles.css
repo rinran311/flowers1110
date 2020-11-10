@@ -1,0 +1,43 @@
+@media (max-width: 600px) {
+  .mobile-nav {
+  }
+}
+
+@media (min-width: 600px) {
+  .mobile-nav {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .fixed-top.pc-nav {
+    display: none;
+  }
+}
+
+@media (min-width: 600px) {
+  .fixed-top.pc-nav {
+  }
+}
+
+.font-english {
+  font-family: 'Baskerville BT Roman';
+}
+
+.font-chinese {
+  font-family: 'GenRyuMin JP M';
+  color: rgb(158,108,85) !important;
+}
+
+.nav-link.active.touchtouch {
+  color: #c1534c;
+}
+
+.nav-link.touchtouch {
+  color: #f8adad;
+}
+
+.btn:focus {
+  box-shadow: none;
+}
+

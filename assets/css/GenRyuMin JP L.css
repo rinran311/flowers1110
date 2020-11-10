@@ -1,0 +1,7 @@
+@font-face {
+	font-family: 'GenRyuMin JP L';
+	src: url(../../assets/fonts/GenRyuMinJP-L.woff2) format('woff2'),
+	url(../../assets/fonts/GenRyuMinJP-L.woff) format('woff');
+	font-weight: 300;
+	font-style: normal;
+}
